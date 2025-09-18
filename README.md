@@ -131,4 +131,4 @@ Pull requests are welcome for:
 ---
 
 ## Citation
-If you use this, please cite OpenPose and the CMU Perceptual Computing Lab accordingly.
+ OpenPose and the CMU Perceptual Computing Lab 
