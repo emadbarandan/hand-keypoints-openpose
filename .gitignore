@@ -1,0 +1,35 @@
+# Python / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environments
+.env
+.venv/
+.conda/
+*.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / Models / Outputs (keep structure via .gitkeep)
+data/**
+!data/.gitkeep
+outputs/**
+!outputs/.gitkeep
+models/**
+!models/.gitkeep
+
+# Don’t ever commit large binary model files
+*.caffemodel
+*.onnx
+*.pb
+*.tflite

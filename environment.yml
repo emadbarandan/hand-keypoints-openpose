@@ -1,0 +1,11 @@
+name: openpose-hand
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - opencv-python>=4.8.0,<5
+      - numpy>=1.23,<3
+      - requests>=2.31,<3
